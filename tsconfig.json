@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "strict": true,
+      "noImplicitReturns": true,
+      "noImplicitAny": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "target": "es2015",
+      "allowJs": true,
+      "jsx": "react",
+      "types": ["react/next", "react-dom/next"],
+      "esModuleInterop": true
+  },
+  "include": [
+      "./src/**/*"
+  ],
+  "exclude": ["node_modules"]
+}
